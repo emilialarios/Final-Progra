@@ -110,7 +110,7 @@ class DiaClimatico(RegistroMeteorologico):
         """
         # TU CÓDIGO AQUÍ
 
-        if self.precipitacion == 0:
+        if self.precipitacion < 1:
             return "Seco"
 
         elif self.precipitacion < 5:
